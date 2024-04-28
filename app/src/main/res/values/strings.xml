@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EvaluacionIntegradoraModulo4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="el_lugar_m_s_seguro_para_tu_dinero">El lugar mas seguro para tu dinero</string>
+    <string name="crear_cuenta_nueva">Crear cuenta nueva</string>
+    <string name="logueate"> Logea y empeza a</string>
+    <string name="transfe">transferir!</string>
+    <string name="ingresaEmail">Ingresa tu email</string>
+    <string name="ingresaPassword">Ingresar tu contraseña</string>
+    <string name="olvidar">Olvidaste tu contraseña?</string>
+    <string name="login">Login</string>
+    <string name="unaNueva">Crear una nueva cuenta</string>
+
+
+    <string name="nombre">Ingresar nombre</string>
+    <string name="apellido">Ingresar apellido</string>
+    <string name="email">Ingresar Email</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="recontrasena">Reingresar contraseña</string>
+
+
+</resources>
