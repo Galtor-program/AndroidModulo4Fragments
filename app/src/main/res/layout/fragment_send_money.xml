@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:backgroundTint="#FFFFFF"
     android:orientation="vertical"
-    tools:context=".fragments.RequestMoney">
+    tools:context=".fragments.SendMoney">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -22,13 +21,9 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             app:navigationIcon="?attr/homeAsUpIndicator"
-            app:title="ingresar Dinero"
+            app:title="Enviar Dinero"
             app:titleCentered="true"
-
-
-            app:titleTextAppearance="@style/toolbar_text">
-
-        </com.google.android.material.appbar.MaterialToolbar>
+            app:titleTextAppearance="@style/toolbar_text"></com.google.android.material.appbar.MaterialToolbar>
 
         <ImageView
             android:id="@+id/imageView14"
@@ -46,7 +41,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="34dp"
-        android:src="@drawable/profile4"
+        android:src="@drawable/profilepicture2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
@@ -57,7 +52,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="35dp"
         android:fontFamily="@font/jua"
-        android:text="Reem Khaled"
+        android:text="Yara Khalil"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
@@ -68,7 +63,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="3dp"
         android:fontFamily="@font/jua"
-        android:text="reem_1993@gmail.com"
+        android:text="yara_khalil@gmail.com"
         android:textColor="#32000000"
         android:textSize="12dp"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
@@ -81,7 +76,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/jua"
-        android:text="Cantidad a ingresar"
+        android:text="Cantidad a transferir"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -93,13 +88,13 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="54dp"
-        android:background="@drawable/edit_text_border"
+        android:background="@drawable/edit_text_border2"
         android:ems="10"
         android:fontFamily="@font/jua"
-        android:hint="20.00  "
+        android:hint="12.50  "
         android:inputType="text"
         android:textAlignment="gravity"
-        android:textColorHint="@color/principal"
+        android:textColorHint="#72DB31"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -145,10 +140,11 @@
         android:layout_marginTop="184dp"
         android:layout_marginEnd="54dp"
         android:layout_marginBottom="84dp"
-        android:backgroundTint="@color/principal"
+        android:backgroundTint="#72DB31"
         android:fontFamily="@font/jua"
-        android:text="Ingresar Dinero"
+        android:text="Enviar Dinero"
         app:cornerRadius="8dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.58"
@@ -161,7 +157,7 @@
         android:layout_height="21dp"
         android:layout_marginTop="189dp"
         android:layout_marginEnd="272dp"
-        android:src="@drawable/requesticon"
+        android:src="@drawable/sendicon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
 
@@ -171,12 +167,7 @@
         android:layout_height="33dp"
         android:layout_marginStart="80dp"
         android:layout_marginBottom="40dp"
-        android:src="@drawable/rectangle2"
+        android:src="@drawable/rectangle"
         app:layout_constraintBottom_toTopOf="@+id/textView39"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
